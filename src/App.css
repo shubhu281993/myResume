@@ -1,0 +1,65 @@
+body{
+  margin:20px;
+  background-color: transparent;
+  /* background-image: url(./assets/ss-icon-2.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: inherit;
+  font-family: "Quicksand", sans-serif !important;
+  font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+ li{
+  margin: 10px;
+  color: white;
+}
+link{
+  color:white;
+}
+
+a{
+  text-decoration: none;
+  color:white ;
+}
+.abc{
+  color:white ;
+
+}
+a:hover{
+  color: white
+}
+
+
+.navbar-logo .logospin {
+  -webkit-animation: spin 15s linear infinite;
+  -moz-animation: spin 15s linear infinite;
+  animation: spin 15s linear infinite;
+  stroke: var(--white);
+  display: inline;
+  position: absolute;
+}
+
+.navbar-logo .logost1 {
+  fill: none;
+  stroke: var(--white);
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  transform-origin: center center;
+}
+.navbar-logo .logo-circle {
+  display: float;
+  position: absolute;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
